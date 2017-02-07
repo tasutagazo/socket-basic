@@ -10,9 +10,7 @@ now.subtract(1, 'year');
 
 var timestamp = 1454830121331;
 var timestampMoment = moment.utc(timestamp); 
-
-
-
+	
 console.log(timestampMoment.local().format('h:mm a'));
 
 // console.log(now.format());
