@@ -40,3 +40,11 @@ body {
 	display: flex;
 	align-items: center;
 }
+
+.marginator {
+	margin: 24px 0;
+}
+
+.messages p {
+	margin: 6px 0;
+}
