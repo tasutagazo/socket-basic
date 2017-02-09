@@ -19,7 +19,6 @@ body {
 	width: 80%;
 	height: 50px;
 	border-radius: 3px 3px 0px 0px;
-	/*background: rgba(229,229,229,0.2);*/
 }
 .regis input[type='submit'] {
 	background-color: #FF7E82;
