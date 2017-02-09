@@ -3,17 +3,32 @@
 <head>
 	<meta charset="utf-8">
 	<title>Socket.io basics</title>
+	<link rel="stylesheet"  type="text/css" href="./css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Sansita" rel="stylesheet">
 </head>
 <body>
-	<h1>Join Chat</h1>
-
-	<form action="/chat.html">
-		<label>Display Name</label>
-		<input type="text" name="name">
-		<label>Chat Room</label>
-		<input type="text" name="room">
-		<input type="submit" value="Join Chat">
-	</form>
-
+<div class="vertical-center">
+	<div class="container">
+		<div class="row">
+			<div class="regis well">
+				<h1>Join Chat</h1>
+				<form action="/chat.html">
+					<div class="middelator col-lg-6">
+						<i class="glyphicon glyphicon-user"></i>
+						<label>Display Name</label> <br>
+						<input type="text" name="name">
+					</div>
+					<div class="middelator col-lg-6">
+						<i class="glyphicon glyphicon-globe"></i>
+						<label>Chat Room</label> <br>
+						<input type="text" name="room">
+					</div>
+						<input type="submit" value="Join Chat">
+				</form>
+			</div>
+		</div>
+	</div>
+</div>
 </body>
 </html>

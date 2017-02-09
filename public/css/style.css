@@ -1,0 +1,43 @@
+body {
+	font-family: 'Sansita', sans-serif;;
+}
+
+.regis {
+	  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+	  width: 75%;
+	  margin-left: 12.5%;
+}
+
+.regis h1 {
+	text-align: center;
+}
+.regis label {
+	font-size: 20px;
+}
+.regis input[type='text']{
+	border: solid 1px #DCE0E0;
+	width: 80%;
+	height: 50px;
+	border-radius: 3px 3px 0px 0px;
+	/*background: rgba(229,229,229,0.2);*/
+}
+.regis input[type='submit'] {
+	background-color: #FF7E82;
+	color: white;
+	border: none;
+	padding: 10px;
+	border-radius: 3px;
+	margin: 10px;
+}
+
+.middelator {
+	text-align: center;
+	padding: 30px;
+}
+
+.vertical-center {
+	min-height: 100vh;
+	margin: 0;
+	display: flex;
+	align-items: center;
+}
